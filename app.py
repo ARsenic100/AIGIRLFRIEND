@@ -2,7 +2,7 @@ from flask import Flask, render_template_string, request, jsonify
 import google.generativeai as genai
 
 # Configure the Gemini API with your API key
-genai.configure(api_key="AIzaSyAUuOBsFY8zA_9fufowCUqQLxxYxPMdHeQ")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyDhQbIadAAYNT-_8wzTStL8scs0xqhg2AY")  # Replace with your actual API key
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Define the chatbot prompt
